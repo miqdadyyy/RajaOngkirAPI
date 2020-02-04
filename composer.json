@@ -1,12 +1,12 @@
 {
-    "name": "Miqdadyyy/rajaongkirapi",
+    "name": "miqdadyyy/rajaongkirapi",
     "description": "Rajaongkir API for laravel 6",
     "license": "license",
     "authors": [
         {
             "name": "Miqdad",
             "email": "miqdad.farcha@gmail.com",
-            "homepage": "miqdad.codes"
+            "homepage": "http://miqdad.codes"
         }
     ],
     "homepage": "https://github.com/miqdadyyy/rajaongkirapi",
