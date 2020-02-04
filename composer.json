@@ -1,7 +1,7 @@
 {
     "name": "miqdadyyy/rajaongkirapi",
     "description": "Rajaongkir API for laravel 6",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
             "name": "Miqdad",
