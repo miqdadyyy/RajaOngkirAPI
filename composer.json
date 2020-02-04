@@ -1,0 +1,43 @@
+{
+    "name": "Miqdadyyy/rajaongkirapi",
+    "description": "Rajaongkir API for laravel 6",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Miqdad",
+            "email": "miqdad.farcha@gmail.com",
+            "homepage": "miqdad.codes"
+        }
+    ],
+    "homepage": "https://github.com/miqdadyyy/rajaongkirapi",
+    "keywords": ["Laravel", "RajaOngkirApi"],
+    "require": {
+        "illuminate/support": "~5|~6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Miqdadyyy\\RajaOngkirApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Miqdadyyy\\RajaOngkirApi\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Miqdadyyy\\RajaOngkirApi\\RajaOngkirApiServiceProvider"
+            ],
+            "aliases": {
+                "RajaOngkirApi": "Miqdadyyy\\RajaOngkirApi\\Facades\\RajaOngkirApi"
+            }
+        }
+    }
+}
